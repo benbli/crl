@@ -11,6 +11,14 @@
    below
 
 */
+:root {
+  --c-white: #fff;
+  --c-jp-indigo: #23424a;
+  --c-fr-lilac: #87629a;
+  --c-blue-sapphire: #136c72;
+  --c-black-olive: #3a3a3a;
+  --c-med-turquoise: #38cfd9;
+}
 
 *,
 *::before,
@@ -90,4 +98,32 @@ h1 {
 .btn:hover,
 .btn:focus {
   opacity: 0.75;
+}
+
+.left-content {
+  width: 62%;
+}
+
+.left-content h2 {
+  color: var(--c-blue-sapphire);
+}
+
+.right-content {
+  width: 32%;
+  background-color: var(--c-blue-sapphire);
+  color: #fff;
+  text-align: center;
+  padding: 0 2em;
+}
+
+.pt-25px {
+  padding-top: 25px;
+}
+
+.pb-10px {
+  padding-bottom: 10px;
+}
+
+.pb-25px {
+  padding-bottom: 25px;
 }
