@@ -2,9 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-body {
   margin: 0;
 }
 
@@ -13,4 +10,112 @@ body {
   --bole: #824936;
   --charlston-green: #222c2a;
   --max-width: 1128px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 6rem;
+  color: var(--bole);
+  text-align: center;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.6rem;
+}
+
+p {
+  font-size: 2.1rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: var(--max-width);
+}
+
+.header {
+  background: var(--eggshell);
+  min-height: 660px;
+  font-size: 1.8rem;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-3rem {
+  gap: 3rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.font-2rem {
+  font-size: 2rem;
+}
+
+.pad-4rem-0 {
+  padding: 4rem 0;
+}
+
+.pad-3rem-0 {
+  padding: 3rem 0;
+}
+
+.pb-2rem {
+  padding-bottom: 2rem;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-brown {
+  color: var(--bole);
+}
+
+.bg-green {
+  background: var(--charlston-green);
+}
+
+.bg-brown {
+  background: var(--bole);
+}
+
+.upper-case {
+  text-transform: uppercase;
+}
+
+.letter-spacing-2px {
+  letter-spacing: 2px;
 }
