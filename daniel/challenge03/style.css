@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 4em;
+  background: #23424a;
+  color: white;
+}
+
+.title {
+  font-size: 2rem;
+  width: 50%;
+  margin-bottom: 0.5em;
+}
+
+.content {
+  font-size: 1rem;
+  width: 50%;
+  color: lightgray;
+  margin-bottom: 2.5em;
+}
+
+.action {
+  padding: 0.5em 2em;
+  border-radius: 2em;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: #38cfd9;
+  color: #000;
+}
