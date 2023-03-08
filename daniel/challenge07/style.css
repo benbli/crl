@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  --eggshell: #f3eed9;
+  --bole: #824936;
+  --charlston-green: #222c2a;
+  --max-width: 1128px;
+}
